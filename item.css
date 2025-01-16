@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+header::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.logoname{
+    font-size: 1.32rem; 
+    color: white;
+ }
+ .logoname span{
+     color: rgb(236, 70, 10);
+     font-size:1.62rem;
+ }
+ nav ul{
+     display: flex;
+     list-style: none;
+     column-gap: 50px;
+     margin: 0px;
+     align-items: center;
+ }
+ ul li{
+     transition-property: all;
+     transition-duration: 0.3s;
+     transition-delay: 0.1s;
+     transition-timing-function: ease-in-out;
+ }
+ ul li a{
+     transition-property: all;
+     transition-duration: 0.3s;
+     transition-delay: 0.1s;
+     transition-timing-function: ease-in-out;
+ }
+ li:hover{
+     transform: scale(1.2);
+ }
+ ul li a:hover ,.item a{
+     color: rgb(231, 76, 20);
+     text-decoration: underline;
+     text-decoration-color:rgb(216, 215, 215) ;
+ }
+ .item a{
+    font-size: 1.83rem;
+ }
+ li a{
+     text-decoration: none;
+     font-size: 1.53rem;
+     color: white;
+ }
+ .logoimg img{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     background-color: rgb(150, 147, 147);
+     opacity: 0.8;
+ }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ .sec1{
+    position: relative;
+  } 
+.sec1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+.sec1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2; 
+    opacity: 0.8;
+    background-image: url("image/bc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:  cover;
+ } 
+ .head h1{
+   text-align: center;
+   margin: 0px;
+ }
+ .head h1::before{
+    content: "";
+    position: absolute;
+    opacity: 0.9;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2; 
+    background-color: rgb(88, 86, 82);
+ }

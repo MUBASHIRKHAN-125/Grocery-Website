@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPNTACT PAGE</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logoname">
+    <span>"MK"</span>GROCERY STORE!
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li><a href="item.html">Items</a></li>
+            </ul>
+        </nav>
+        <div class="logoimg">
+            <img src="image/logo-removebg-preview.png" alt="pic">
+        </div>
+    </header> 
+    <section class="head">
+        <h1>Contact Us for Freshness Delivered</h1>
+    </section>
+    <section sec1>
+        <section class="sec1">
+            <label for="name">
+            <input placeholder=" Full Name" type="text" id="name">
+            </label>
+          
+            <label for="email">
+            <input placeholder="Email" type="email" id="email">
+            </label>
+            <label for="tell">
+            <input placeholder="Telephone Number" type="number" id="tell">
+            </label>
+            <label for="Addres">
+            <input placeholder="Address" type="text" id="Addres">
+            </label>
+           
+            <div class="textarea">
+            <textarea placeholder="Message" cols="42" rows="6" id="message"></textarea>
+        </div>
+        <div class="button">
+        <div class="but">
+        <button onclick="MessageSend()">Send</button>
+        </div>
+        <div class="Refresh">
+        <button onclick="Refresh()"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+        </div>
+        </div>
+         </section>
+         <footer >
+        <h2>THANKS SHOPPING "MK" ONLINE STORE!</h2>
+         </footer>
+    </section>
+    <script src="cont.js"></script>
+</body>
+</html>
