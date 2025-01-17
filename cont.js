@@ -16,9 +16,9 @@ const MessageSend = () => {
        return;
      }
      let objectCon = {
-      user_Name:userName,
-        Email: userEmail,
-        tel: userCont,
+        user_Name:userName,
+        email: userEmail,
+        contactNumber: userCont,
         address: userAddress,
         message: userMessage,
       }
