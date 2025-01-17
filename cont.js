@@ -16,16 +16,16 @@ const MessageSend = () => {
        return;
      }
      let objectCon = {
-        userName:userName,
-        email: userEmail,
-        contactNumber: userCont,
-        userAddress: userAddress,
+      user_Name:userName,
+        Email: userEmail,
+        tel: userCont,
+        address: userAddress,
         message: userMessage,
       }
     
       emailjs.send("service_e4j4fue" , "template_tf36zko" , objectCon)
       .then((response) => {
-    alert("ORDER COMPLETE");
+    alert("ORDER COMPLETE YOUR GROCERY ITEM 24 HOURS DELEVER");
     console.log(response);
     window.location.href="index.html";
       })
