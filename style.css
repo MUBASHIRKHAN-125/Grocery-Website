@@ -119,10 +119,11 @@ p{
 }
 .but{
     padding-top:50px ;
-    /* padding-bottom: 60px; */
 }
 .but button{
     padding: 8px 35px;
+    color: white;
+    font-weight: 700;
 }
 .sec2{
   padding-top: 130px;
